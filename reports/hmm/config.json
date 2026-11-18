@@ -1,0 +1,9 @@
+{
+  "score_floor": 1e-12,
+  "base_distance_scale_m": 20.0,
+  "displacement_scale": 0.25,
+  "maximum_speed_mps": 55.0,
+  "positional_slack_m": 20.0,
+  "restart_gap_s": 30.0,
+  "distance_cache_size": 4096
+}

@@ -1,0 +1,8 @@
+{
+  "classifier": "Bayesian Extra Trees trial 5",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "python": "3.12.14",
+  "partition": "student_test",
+  "validation_folds": "no saved tuned OOF predictions"
+}
