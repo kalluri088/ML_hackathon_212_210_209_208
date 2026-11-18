@@ -1,64 +1,32 @@
 # PathSnap — Team 6
 
-Shared preprocessing and initial model-training handoff. No full model experiments,
-Bayesian search, HMM or application results have been completed yet.
+Notebook-only shared workflow. The Logistic Regression and Histogram Gradient Boosting notebooks include measured initial results. The three teammate notebooks are ready to run.
 
-## Team assignments
+## Start training
+1. Clone/download this repository and install requirements.txt in a Python 3.12+ environment.
+2. Launch JupyterLab from the repository root.
+3. Place the team’s data handoff archives in the paths listed below, then run notebooks/01_unpack_data.ipynb once.
+4. Open your assigned notebook and run its real training cells; save actual outputs.
 
-| Member | Model(s) | Later ownership |
-|---|---|---|
-| Yaswanth | Logistic Regression, Histogram Gradient Boosting | Comparison, Bayesian tuning, HMM/Viterbi and integration |
-| Madhu | Random Forest | FastAPI backend and server-side evaluation |
-| Hrisheek | Extra Trees | Evaluator UI on Laptop 2 |
-| Joshwin | MLP | Folium maps, experiment plots and report assembly |
+| Member | Model notebook(s) |
+|---|---|
+| Yaswanth | logistic.ipynb, hist_gradient_boosting.ipynb |
+| Madhu | random_forest.ipynb |
+| Hrisheek | extra_trees.ipynb |
+| Joshwin | mlp.ipynb |
 
+All notebooks live in notebooks/. Read docs/TRAINING_GUIDE.md and your prompt in docs/prompts/.
+The original question/guidelines are the five PDFs in docs/given/.
 
+## Local datasets
 
-## Quick start
+The notebooks can use an existing `processed/` directory or unpack the team’s dataset archives. For archive setup, place the original ZIP at `data/raw/student_data.zip` and the full preprocessing ZIP at `data/processed/preprocessed_data.zip`. `data/SHA256SUMS.json` records the expected files. Get the archives from the team’s local handoff. The original student package contains 80 training and 10 student-test trips. Each model uses the same data and folds.
 
-Python 3.12+; data is already checked in, so no raw-data download or preprocessing run is needed.
+## Reproducibility and limitations
+notebooks/00_shared_training.ipynb defines the common loader/trainer/scoring; model notebooks run it.
+notebooks/02_preprocessing.ipynb reproduces preprocessing and validation if needed.
+Read PRE_PROCESSING_DECISIONS.md: observation labels are derived proxies, and high-miss training
+trips need investigation. The two owner notebooks include five-fold and student-test results. Bayesian tuning and HMM evaluation follow the five-model comparison.
+The notebook definitions derive from the tested pipeline: seven focused tests passed, five model
+factories passed synthetic probability checks, and a small logistic smoke run completed. The two owner notebooks have also completed all five folds and their final student-test evaluation. Their code cells were executed locally without a Jupyter UI.
 
-```bash
-python -m venv .venv
-# Linux/macOS: source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -r requirements-training.txt
-python -m unittest discover -s tests -v
-# Replace random_forest with your assigned model name:
-python scripts/model_training.py --model random_forest --folds 0 --smoke --out scratch/smoke
-python scripts/model_training.py --model random_forest --final --out results/run_01
-```
-
-Use .venv's Python after activation. The five choices are logistic,
-hist_gradient_boosting, random_forest, extra_trees, and mlp.
-
-## Shared dataset
-
-80 training trips / 208,417 GPS observations; 10 student-test trips / 19,160 observations.
-Each observation has 8 candidate segments and 10 features. Default fitting uses 136,582
-quality-filtered observations. All evaluation observations remain present.
-Five fixed validation folds keep whole trips together. All models use the same dataset;
-Logistic Regression and MLP scale features inside each fitted training pipeline.
-
-**Labels are derived reference proxies.** Read [preprocessing decisions](PRE_PROCESSING_DECISIONS.md)
-and [validation findings](reports/PREPROCESSING_SUMMARY.md). Two high-miss training trips
-need review before final claims. Route continuity is N/A until shared graph scoring is added.
-
-`processed/` contains per-trip NPZ files, schema, source-file hashes and inventory.
-`scripts/` contains preprocessing, loading, scoring and training code; `tests/` checks geometry,
-alignment and scoring. No evaluator data is included or used.
-
-## Reproduce preprocessing (optional)
-
-Requires the original raw package extracted as `Student folder/train/<id>/...` and
-`Student folder/student_test/<id>/...`. It is deliberately not duplicated in this repository.
-
-```bash
-python -m pip install -r requirements-preprocessing.txt
-python scripts/preprocess.py
-python scripts/validate_dataset.py
-```
-
-Raw archives, original handout PDFs, generated HTML maps, virtual environments, duplicate ZIPs,
-smoke runs and large trained artifacts are excluded. Every member retains actual logs, predictions,
-model files and analysis for final submission; see the training guide for the handoff contract.

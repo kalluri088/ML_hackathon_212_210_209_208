@@ -1,0 +1,14 @@
+.venv*/
+.ipynb_checkpoints/
+__pycache__/
+Student folder/
+processed/
+results/
+scratch/
+reports/
+*.joblib
+*.pkl
+.env
+.env.*
+data/raw/student_data.zip
+data/processed/preprocessed_data.zip
