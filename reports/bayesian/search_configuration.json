@@ -1,0 +1,79 @@
+{
+  "objective": "mean all-observation trip-and-arc Macro F1 across five fixed folds",
+  "train_trip_count": 80,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "search_space": {
+    "n_estimators": [
+      64,
+      96,
+      128,
+      150,
+      192
+    ],
+    "max_depth": [
+      16,
+      20,
+      24,
+      28,
+      32
+    ],
+    "min_samples_leaf": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "max_features": [
+      3,
+      5,
+      7
+    ]
+  },
+  "initial_points": [
+    [
+      150,
+      24,
+      2,
+      3
+    ],
+    [
+      64,
+      20,
+      4,
+      3
+    ],
+    [
+      96,
+      28,
+      2,
+      5
+    ],
+    [
+      96,
+      16,
+      8,
+      7
+    ]
+  ],
+  "bayesian_trials": 2,
+  "surrogate": "Gaussian process, Matern 2.5 and white noise",
+  "acquisition": "expected improvement, xi=0.001",
+  "seed": 212,
+  "workers": 6,
+  "python": "3.12.14",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "notebook_sha256": {
+    "04_bayesian_extra_trees.ipynb": "dd37deabfac7ca5b04e9893566c1b38e21c0c5fd9442400b52b369e72fc4f2fe",
+    "00_shared_training.ipynb": "929b7288f5c9e38840b0ff17811063e7eb670effe410cee6a4487151fb78fc35"
+  },
+  "dataset_file_count": 90,
+  "dataset_manifest_sha256": "fea5b53f3ce1c826db5c3bcffe699f9bc2b10e6745e6c3f8be47ed5c95e48713"
+}

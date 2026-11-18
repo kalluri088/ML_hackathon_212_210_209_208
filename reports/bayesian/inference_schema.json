@@ -1,0 +1,64 @@
+{
+  "features": [
+    "distance_m",
+    "heading_cos",
+    "heading_available",
+    "segment_length_m",
+    "projection_fraction",
+    "speed_mps",
+    "previous_gap_s",
+    "gps_step_m",
+    "candidate_distance_rank",
+    "distance_minus_nearest_m"
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "positive_class_label": 1,
+  "positive_class_column": 1,
+  "feature_importance": {
+    "distance_m": 0.023866486861911708,
+    "heading_cos": 0.2212891494316154,
+    "heading_available": 0.00106648949516651,
+    "segment_length_m": 0.010746994419234218,
+    "projection_fraction": 0.08360349591783137,
+    "speed_mps": 0.016038054366664244,
+    "previous_gap_s": 0.00029859903610917243,
+    "gps_step_m": 0.008663852812659219,
+    "candidate_distance_rank": 0.5769948453404622,
+    "distance_minus_nearest_m": 0.057432032318346045
+  },
+  "original_max_trials": 8,
+  "completed_trials": 6,
+  "attempted_trials": [
+    {
+      "number": 1,
+      "status": "completed"
+    },
+    {
+      "number": 2,
+      "status": "completed"
+    },
+    {
+      "number": 3,
+      "status": "completed"
+    },
+    {
+      "number": 4,
+      "status": "completed"
+    },
+    {
+      "number": 5,
+      "status": "completed"
+    },
+    {
+      "number": 6,
+      "status": "completed"
+    },
+    {
+      "number": 7,
+      "status": "interrupted"
+    }
+  ]
+}

@@ -1,0 +1,1714 @@
+{
+  "logistic": {
+    "rec": {
+      "fold_0": {
+        "split": "fold_0",
+        "fit_seconds": 1.0751453470002161,
+        "inference_seconds": 0.007320083001104649,
+        "inference_ms_per_observation": 0.0002550551568329146,
+        "metrics": {
+          "all_points": {
+            "observations": 28700,
+            "top1_accuracy": 0.7775609756097561,
+            "macro_precision": 0.6513185877985712,
+            "macro_recall": 0.5957388917477748,
+            "macro_f1": 0.6128575584949925,
+            "candidate_miss_rate": 0.00975609756097561,
+            "categorical_log_loss_with_miss_state": 1.0657711880274288
+          },
+          "reliable_points": {
+            "observations": 20087,
+            "top1_accuracy": 0.858664808084831,
+            "macro_precision": 0.7478084962913014,
+            "macro_recall": 0.7023677863244904,
+            "macro_f1": 0.7188867373866626,
+            "candidate_miss_rate": 0.0010952357245979987,
+            "categorical_log_loss_with_miss_state": 0.5150953997268584
+          },
+          "reliable_coverage": 0.6998954703832753,
+          "candidate_binary_log_loss": 0.17240481644189246,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.828849009157462,
+            "macro_precision": 0.7711865666880039,
+            "macro_recall": 0.7229878152363882,
+            "macro_f1": 0.7405171630927224,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.4797301300282376
+          },
+          "reliable_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.828849009157462,
+            "macro_precision": 0.7711865666880039,
+            "macro_recall": 0.7229878152363882,
+            "macro_f1": 0.7405171630927224,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.4797301300282376
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.11766578492768977,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_1": {
+        "split": "fold_1",
+        "fit_seconds": 1.2601449379944825,
+        "inference_seconds": 0.00934877099643927,
+        "inference_ms_per_observation": 0.0002297334004138023,
+        "metrics": {
+          "all_points": {
+            "observations": 40694,
+            "top1_accuracy": 0.7466211235071509,
+            "macro_precision": 0.7092323143701916,
+            "macro_recall": 0.6615752244391931,
+            "macro_f1": 0.6763544688436074,
+            "candidate_miss_rate": 0.10217722514375584,
+            "categorical_log_loss_with_miss_state": 3.3828167862742085
+          },
+          "reliable_points": {
+            "observations": 29107,
+            "top1_accuracy": 0.8649809324217542,
+            "macro_precision": 0.8098013251601897,
+            "macro_recall": 0.7737405749291675,
+            "macro_f1": 0.7867236750039883,
+            "candidate_miss_rate": 0.017177998419624144,
+            "categorical_log_loss_with_miss_state": 0.8691178941899226
+          },
+          "reliable_coverage": 0.7152651496535116,
+          "candidate_binary_log_loss": 0.1471436755614752,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8205417920815004,
+            "macro_precision": 0.7543977411775559,
+            "macro_recall": 0.7033434544025009,
+            "macro_f1": 0.7219101984768201,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.5006275516484765
+          },
+          "reliable_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8205417920815004,
+            "macro_precision": 0.7543977411775559,
+            "macro_recall": 0.7033434544025009,
+            "macro_f1": 0.7219101984768201,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.5006275516484765
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.12172996655158218,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_2": {
+        "split": "fold_2",
+        "fit_seconds": 1.2717881450007553,
+        "inference_seconds": 0.011538892002135981,
+        "inference_ms_per_observation": 0.00023478801941431615,
+        "metrics": {
+          "all_points": {
+            "observations": 49146,
+            "top1_accuracy": 0.4603223049688683,
+            "macro_precision": 0.6129129647471836,
+            "macro_recall": 0.5451518041366863,
+            "macro_f1": 0.566876339271367,
+            "candidate_miss_rate": 0.28549627640092784,
+            "categorical_log_loss_with_miss_state": 9.826053105261444
+          },
+          "reliable_points": {
+            "observations": 22542,
+            "top1_accuracy": 0.7970898766746518,
+            "macro_precision": 0.7076566125290024,
+            "macro_recall": 0.644622980536932,
+            "macro_f1": 0.6661755281080892,
+            "candidate_miss_rate": 0.0018188270783426493,
+            "categorical_log_loss_with_miss_state": 0.6119484050044639
+          },
+          "reliable_coverage": 0.4586741545598828,
+          "candidate_binary_log_loss": 0.3684077193134209,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8402012605078848,
+            "macro_precision": 0.7790694266468269,
+            "macro_recall": 0.7346383712260843,
+            "macro_f1": 0.7510978743777352,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.463748465820479
+          },
+          "reliable_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8402012605078848,
+            "macro_precision": 0.7790694266468269,
+            "macro_recall": 0.7346383712260843,
+            "macro_f1": 0.7510978743777352,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.463748465820479
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.11259807810694336,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_3": {
+        "split": "fold_3",
+        "fit_seconds": 1.1472345470028813,
+        "inference_seconds": 0.01610344700020505,
+        "inference_ms_per_observation": 0.0002584242224894093,
+        "metrics": {
+          "all_points": {
+            "observations": 62314,
+            "top1_accuracy": 0.7558012645633405,
+            "macro_precision": 0.6914345838887157,
+            "macro_recall": 0.632563538692065,
+            "macro_f1": 0.6525438953461128,
+            "candidate_miss_rate": 0.005632763102994512,
+            "categorical_log_loss_with_miss_state": 0.8604192881620736
+          },
+          "reliable_points": {
+            "observations": 46757,
+            "top1_accuracy": 0.7788352546142824,
+            "macro_precision": 0.7447312201286189,
+            "macro_recall": 0.6875217873418403,
+            "macro_f1": 0.7090345113238912,
+            "candidate_miss_rate": 0.00029942040763949784,
+            "categorical_log_loss_with_miss_state": 0.5643105958920717
+          },
+          "reliable_coverage": 0.7503450267997561,
+          "candidate_binary_log_loss": 0.1621726102125788,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8620309665067509,
+            "macro_precision": 0.7791719456213295,
+            "macro_recall": 0.7351042567209687,
+            "macro_f1": 0.7509100906623808,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.44342419462404253
+          },
+          "reliable_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8620309665067509,
+            "macro_precision": 0.7791719456213295,
+            "macro_recall": 0.7351042567209687,
+            "macro_f1": 0.7509100906623808,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.44342419462404253
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.10780354794077736,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_4": {
+        "split": "fold_4",
+        "fit_seconds": 1.4139570299957995,
+        "inference_seconds": 0.007183362999057863,
+        "inference_ms_per_observation": 0.00026061615205376273,
+        "metrics": {
+          "all_points": {
+            "observations": 27563,
+            "top1_accuracy": 0.8508507782171753,
+            "macro_precision": 0.7365406830961023,
+            "macro_recall": 0.6922696913559135,
+            "macro_f1": 0.7053940237089447,
+            "candidate_miss_rate": 0.005333236585277365,
+            "categorical_log_loss_with_miss_state": 0.7034534105215369
+          },
+          "reliable_points": {
+            "observations": 18677,
+            "top1_accuracy": 0.9078545805000803,
+            "macro_precision": 0.8141784048701184,
+            "macro_recall": 0.7778730351481405,
+            "macro_f1": 0.7913200704684373,
+            "candidate_miss_rate": 0.0005889596830326069,
+            "categorical_log_loss_with_miss_state": 0.3565905827118607
+          },
+          "reliable_coverage": 0.6776112904981315,
+          "candidate_binary_log_loss": 0.1334530572990328,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8215254927236337,
+            "macro_precision": 0.7572506234297465,
+            "macro_recall": 0.7070291553929902,
+            "macro_f1": 0.725238456958113,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.5038866690113462
+          },
+          "reliable_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8215254927236337,
+            "macro_precision": 0.7572506234297465,
+            "macro_recall": 0.7070291553929902,
+            "macro_f1": 0.725238456958113,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.5038866690113462
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.12166848173922334,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "student_test": {
+        "split": "student_test",
+        "fit_seconds": 1.4550087489988073,
+        "inference_seconds": 0.004706286999862641,
+        "inference_ms_per_observation": 0.0002456308455043132,
+        "metrics": {
+          "all_points": {
+            "observations": 19160,
+            "top1_accuracy": 0.807776617954071,
+            "macro_precision": 0.67128200556248,
+            "macro_recall": 0.6115024056408889,
+            "macro_f1": 0.6285612293041085,
+            "candidate_miss_rate": 0.003496868475991649,
+            "categorical_log_loss_with_miss_state": 0.7726585259450414
+          },
+          "reliable_points": {
+            "observations": 13307,
+            "top1_accuracy": 0.8815660930337417,
+            "macro_precision": 0.7723428017017238,
+            "macro_recall": 0.7270987217844448,
+            "macro_f1": 0.7431575610542906,
+            "candidate_miss_rate": 0.0005260389268805891,
+            "categorical_log_loss_with_miss_state": 0.41513345476151187
+          },
+          "reliable_coverage": 0.6945198329853862,
+          "candidate_binary_log_loss": 0.15159244332792302,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8334187521049626,
+            "macro_precision": 0.7678992749581982,
+            "macro_recall": 0.7203067924960047,
+            "macro_f1": 0.7376200028777676,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.4802393830756709
+          },
+          "reliable_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8334187521049626,
+            "macro_precision": 0.7678992749581982,
+            "macro_recall": 0.7203067924960047,
+            "macro_f1": 0.7376200028777676,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.4802393830756709
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.11681071668317085,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      }
+    }
+  },
+  "hist_gradient_boosting": {
+    "rec": {
+      "fold_0": {
+        "split": "fold_0",
+        "fit_seconds": 5.176061628997559,
+        "inference_seconds": 0.4430520649984828,
+        "inference_ms_per_observation": 0.015437354181131806,
+        "metrics": {
+          "all_points": {
+            "observations": 28700,
+            "top1_accuracy": 0.7734843205574913,
+            "macro_precision": 0.6442221672431783,
+            "macro_recall": 0.5898166051778505,
+            "macro_f1": 0.6061790279028297,
+            "candidate_miss_rate": 0.00975609756097561,
+            "categorical_log_loss_with_miss_state": 0.9563917531299337
+          },
+          "reliable_points": {
+            "observations": 20087,
+            "top1_accuracy": 0.8616518146064619,
+            "macro_precision": 0.7726748211400877,
+            "macro_recall": 0.7303527353589847,
+            "macro_f1": 0.745914570640258,
+            "candidate_miss_rate": 0.0010952357245979987,
+            "categorical_log_loss_with_miss_state": 0.37230594503274755
+          },
+          "reliable_coverage": 0.6998954703832753,
+          "candidate_binary_log_loss": 0.1573843324861123,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.8745762420934284,
+            "macro_precision": 0.81077714677892,
+            "macro_recall": 0.7703598010538623,
+            "macro_f1": 0.7854992242931169,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.29281980607911706
+          },
+          "reliable_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.8745762420934284,
+            "macro_precision": 0.81077714677892,
+            "macro_recall": 0.7703598010538623,
+            "macro_f1": 0.7854992242931169,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.29281980607911706
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.0793992506686831,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_1": {
+        "split": "fold_1",
+        "fit_seconds": 4.530077369003266,
+        "inference_seconds": 0.6018720400024904,
+        "inference_ms_per_observation": 0.014790191183036577,
+        "metrics": {
+          "all_points": {
+            "observations": 40694,
+            "top1_accuracy": 0.7523959306040202,
+            "macro_precision": 0.7168024041006016,
+            "macro_recall": 0.6720993739520688,
+            "macro_f1": 0.6854207761561497,
+            "candidate_miss_rate": 0.10217722514375584,
+            "categorical_log_loss_with_miss_state": 3.09273662593058
+          },
+          "reliable_points": {
+            "observations": 29107,
+            "top1_accuracy": 0.8781392792111863,
+            "macro_precision": 0.8427265272652726,
+            "macro_recall": 0.811191646520609,
+            "macro_f1": 0.8226084380053653,
+            "candidate_miss_rate": 0.017177998419624144,
+            "categorical_log_loss_with_miss_state": 0.7119707093058406
+          },
+          "reliable_coverage": 0.7152651496535116,
+          "candidate_binary_log_loss": 0.11362803109983648,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8649780041676314,
+            "macro_precision": 0.7966910120733344,
+            "macro_recall": 0.7537480554547104,
+            "macro_f1": 0.7698980713383,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.31178939627420266
+          },
+          "reliable_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8649780041676314,
+            "macro_precision": 0.7966910120733344,
+            "macro_recall": 0.7537480554547104,
+            "macro_f1": 0.7698980713383,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.31178939627420266
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.08391263586134637,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_2": {
+        "split": "fold_2",
+        "fit_seconds": 4.823796564996883,
+        "inference_seconds": 0.692884743999457,
+        "inference_ms_per_observation": 0.014098497212376531,
+        "metrics": {
+          "all_points": {
+            "observations": 49146,
+            "top1_accuracy": 0.4649411956212103,
+            "macro_precision": 0.6310864216947142,
+            "macro_recall": 0.5692648535993067,
+            "macro_f1": 0.5887443636271409,
+            "candidate_miss_rate": 0.28549627640092784,
+            "categorical_log_loss_with_miss_state": 7.9046804650965
+          },
+          "reliable_points": {
+            "observations": 22542,
+            "top1_accuracy": 0.8129269807470499,
+            "macro_precision": 0.7637424276419116,
+            "macro_recall": 0.7114561600317503,
+            "macro_f1": 0.7297611121681795,
+            "candidate_miss_rate": 0.0018188270783426493,
+            "categorical_log_loss_with_miss_state": 0.4401668854763072
+          },
+          "reliable_coverage": 0.4586741545598828,
+          "candidate_binary_log_loss": 0.26004897668294014,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8817506859161472,
+            "macro_precision": 0.8115718867785863,
+            "macro_recall": 0.77293390117989,
+            "macro_f1": 0.7875056452166369,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2788311207327478
+          },
+          "reliable_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8817506859161472,
+            "macro_precision": 0.8115718867785863,
+            "macro_recall": 0.77293390117989,
+            "macro_f1": 0.7875056452166369,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2788311207327478
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.0748487286471093,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_3": {
+        "split": "fold_3",
+        "fit_seconds": 3.8287791319962707,
+        "inference_seconds": 0.8869174759965972,
+        "inference_ms_per_observation": 0.014233037134457702,
+        "metrics": {
+          "all_points": {
+            "observations": 62314,
+            "top1_accuracy": 0.7518856115800623,
+            "macro_precision": 0.690657886552781,
+            "macro_recall": 0.6318811713572958,
+            "macro_f1": 0.6515045109041556,
+            "candidate_miss_rate": 0.005632763102994512,
+            "categorical_log_loss_with_miss_state": 0.7803980972036012
+          },
+          "reliable_points": {
+            "observations": 46757,
+            "top1_accuracy": 0.7794554826015356,
+            "macro_precision": 0.7671474358974358,
+            "macro_recall": 0.7130053312726814,
+            "macro_f1": 0.7334547206006276,
+            "candidate_miss_rate": 0.00029942040763949784,
+            "categorical_log_loss_with_miss_state": 0.49471791003611104
+          },
+          "reliable_coverage": 0.7503450267997561,
+          "candidate_binary_log_loss": 0.15520598590111942,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8988301294538007,
+            "macro_precision": 0.8206488836760202,
+            "macro_recall": 0.7836902318724421,
+            "macro_f1": 0.7971770679997673,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2408572247968394
+          },
+          "reliable_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8988301294538007,
+            "macro_precision": 0.8206488836760202,
+            "macro_recall": 0.7836902318724421,
+            "macro_f1": 0.7971770679997673,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2408572247968394
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.06767672801154992,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_4": {
+        "split": "fold_4",
+        "fit_seconds": 5.085347535998153,
+        "inference_seconds": 0.5011665019992506,
+        "inference_ms_per_observation": 0.01818258179440738,
+        "metrics": {
+          "all_points": {
+            "observations": 27563,
+            "top1_accuracy": 0.8489279106047963,
+            "macro_precision": 0.7347308449640876,
+            "macro_recall": 0.6913408738475004,
+            "macro_f1": 0.7034107038950347,
+            "candidate_miss_rate": 0.005333236585277365,
+            "categorical_log_loss_with_miss_state": 0.609175153046427
+          },
+          "reliable_points": {
+            "observations": 18677,
+            "top1_accuracy": 0.9173314772179686,
+            "macro_precision": 0.8457369189076506,
+            "macro_recall": 0.8145895875328807,
+            "macro_f1": 0.8260860911564756,
+            "candidate_miss_rate": 0.0005889596830326069,
+            "categorical_log_loss_with_miss_state": 0.23687108779887442
+          },
+          "reliable_coverage": 0.6776112904981315,
+          "candidate_binary_log_loss": 0.1234631286568651,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8686946639981004,
+            "macro_precision": 0.7973368912894375,
+            "macro_recall": 0.754556930833641,
+            "macro_f1": 0.7705801713342023,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.3050560266644675
+          },
+          "reliable_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8686946639981004,
+            "macro_precision": 0.7973368912894375,
+            "macro_recall": 0.754556930833641,
+            "macro_f1": 0.7705801713342023,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.3050560266644675
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.08178528593663419,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "student_test": {
+        "split": "student_test",
+        "fit_seconds": 5.897434032995079,
+        "inference_seconds": 0.286917209996318,
+        "inference_ms_per_observation": 0.014974802191874633,
+        "metrics": {
+          "all_points": {
+            "observations": 19160,
+            "top1_accuracy": 0.8078288100208768,
+            "macro_precision": 0.6529903974822683,
+            "macro_recall": 0.595933815482982,
+            "macro_f1": 0.6113421519510777,
+            "candidate_miss_rate": 0.003496868475991649,
+            "categorical_log_loss_with_miss_state": 0.671030058265731
+          },
+          "reliable_points": {
+            "observations": 13307,
+            "top1_accuracy": 0.8900578642819569,
+            "macro_precision": 0.7989688023450586,
+            "macro_recall": 0.7563752932728279,
+            "macro_f1": 0.7717634176194981,
+            "candidate_miss_rate": 0.0005260389268805891,
+            "categorical_log_loss_with_miss_state": 0.28597908008447415
+          },
+          "reliable_coverage": 0.6945198329853862,
+          "candidate_binary_log_loss": 0.13524670498657115,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8730872296495878,
+            "macro_precision": 0.8060786054324083,
+            "macro_recall": 0.7656445637221371,
+            "macro_f1": 0.7807382367852527,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.29593240051620096
+          },
+          "reliable_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8730872296495878,
+            "macro_precision": 0.8060786054324083,
+            "macro_recall": 0.7656445637221371,
+            "macro_f1": 0.7807382367852527,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.29593240051620096
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.07985087678313854,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      }
+    }
+  },
+  "random_forest": {
+    "rec": {
+      "fold_0": {
+        "split": "fold_0",
+        "fit_seconds": 519.909308024,
+        "inference_seconds": 3.086311225999907,
+        "inference_ms_per_observation": 0.1075369765156762,
+        "metrics": {
+          "all_points": {
+            "observations": 28700,
+            "top1_accuracy": 0.7728919860627178,
+            "macro_precision": 0.6443965157440722,
+            "macro_recall": 0.5881429997421448,
+            "macro_f1": 0.6050363832372773,
+            "candidate_miss_rate": 0.00975609756097561,
+            "categorical_log_loss_with_miss_state": 1.1812451296358315
+          },
+          "reliable_points": {
+            "observations": 20087,
+            "top1_accuracy": 0.8594115597152387,
+            "macro_precision": 0.7644910999543587,
+            "macro_recall": 0.7195935212123589,
+            "macro_f1": 0.7358597951363389,
+            "candidate_miss_rate": 0.0010952357245979987,
+            "categorical_log_loss_with_miss_state": 0.409096881623782
+          },
+          "reliable_coverage": 0.6998954703832753,
+          "candidate_binary_log_loss": 0.1782250413487404,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.9466172318202494,
+            "macro_precision": 0.8889398494963392,
+            "macro_recall": 0.870151604147888,
+            "macro_f1": 0.8777172013392036,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.18272386557860218
+          },
+          "reliable_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.9466172318202494,
+            "macro_precision": 0.8889398494963392,
+            "macro_recall": 0.870151604147888,
+            "macro_f1": 0.8777172013392036,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.18272386557860218
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.04903811396686951,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_1": {
+        "split": "fold_1",
+        "fit_seconds": 465.54486473399993,
+        "inference_seconds": 5.342793952000193,
+        "inference_ms_per_observation": 0.13129193374945183,
+        "metrics": {
+          "all_points": {
+            "observations": 40694,
+            "top1_accuracy": 0.753477171081732,
+            "macro_precision": 0.7214135975467728,
+            "macro_recall": 0.6767167101353083,
+            "macro_f1": 0.6904985821915496,
+            "candidate_miss_rate": 0.10217722514375584,
+            "categorical_log_loss_with_miss_state": 3.338810727935243
+          },
+          "reliable_points": {
+            "observations": 29107,
+            "top1_accuracy": 0.8747380355241007,
+            "macro_precision": 0.8376507724301843,
+            "macro_recall": 0.8063219071616291,
+            "macro_f1": 0.8177185633749735,
+            "candidate_miss_rate": 0.017177998419624144,
+            "categorical_log_loss_with_miss_state": 0.7732816395927217
+          },
+          "reliable_coverage": 0.7152651496535116,
+          "candidate_binary_log_loss": 0.12818948154966076,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.9425607779578606,
+            "macro_precision": 0.8778341610883179,
+            "macro_recall": 0.856747851261031,
+            "macro_f1": 0.8651625104887707,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.19413066801566906
+          },
+          "reliable_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.9425607779578606,
+            "macro_precision": 0.8778341610883179,
+            "macro_recall": 0.856747851261031,
+            "macro_f1": 0.8651625104887707,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.19413066801566906
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.05165034416211127,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_2": {
+        "split": "fold_2",
+        "fit_seconds": 502.1557228729994,
+        "inference_seconds": 4.17993020799986,
+        "inference_ms_per_observation": 0.08505128002278638,
+        "metrics": {
+          "all_points": {
+            "observations": 49146,
+            "top1_accuracy": 0.4677491555772596,
+            "macro_precision": 0.6312423537382328,
+            "macro_recall": 0.5704003286051812,
+            "macro_f1": 0.5898326473654921,
+            "candidate_miss_rate": 0.28549627640092784,
+            "categorical_log_loss_with_miss_state": 10.395514794262509
+          },
+          "reliable_points": {
+            "observations": 22542,
+            "top1_accuracy": 0.8136811285600213,
+            "macro_precision": 0.7551747162252392,
+            "macro_recall": 0.7033115769543677,
+            "macro_f1": 0.7214666384330848,
+            "candidate_miss_rate": 0.0018188270783426493,
+            "categorical_log_loss_with_miss_state": 0.46455377506159123
+          },
+          "reliable_coverage": 0.4586741545598828,
+          "candidate_binary_log_loss": 0.41986548341137636,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.9479667955224796,
+            "macro_precision": 0.8877248569092395,
+            "macro_recall": 0.8692903392357011,
+            "macro_f1": 0.8767709011829852,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.17377574313491623
+          },
+          "reliable_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.9479667955224796,
+            "macro_precision": 0.8877248569092395,
+            "macro_recall": 0.8692903392357011,
+            "macro_f1": 0.8767709011829852,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.17377574313491623
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.04625537346214501,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_3": {
+        "split": "fold_3",
+        "fit_seconds": 382.19839054600016,
+        "inference_seconds": 6.822053380000398,
+        "inference_ms_per_observation": 0.10947866257984397,
+        "metrics": {
+          "all_points": {
+            "observations": 62314,
+            "top1_accuracy": 0.7471836184485028,
+            "macro_precision": 0.6880618652876983,
+            "macro_recall": 0.627464933077121,
+            "macro_f1": 0.6475919597126198,
+            "candidate_miss_rate": 0.005632763102994512,
+            "categorical_log_loss_with_miss_state": 0.8614051000239475
+          },
+          "reliable_points": {
+            "observations": 46757,
+            "top1_accuracy": 0.7748358534550976,
+            "macro_precision": 0.7589037080463139,
+            "macro_recall": 0.7023184693601185,
+            "macro_f1": 0.7234383054504976,
+            "candidate_miss_rate": 0.00029942040763949784,
+            "categorical_log_loss_with_miss_state": 0.5194654075598749
+          },
+          "reliable_coverage": 0.7503450267997561,
+          "candidate_binary_log_loss": 0.15767054208048537,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.9721501797660259,
+            "macro_precision": 0.9202779086198776,
+            "macro_recall": 0.9074348111623125,
+            "macro_f1": 0.9124103980512549,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.1319118254392176
+          },
+          "reliable_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.9721501797660259,
+            "macro_precision": 0.9202779086198776,
+            "macro_recall": 0.9074348111623125,
+            "macro_f1": 0.9124103980512549,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.1319118254392176
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.03597133896504409,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_4": {
+        "split": "fold_4",
+        "fit_seconds": 527.6577902110002,
+        "inference_seconds": 4.355134224000722,
+        "inference_ms_per_observation": 0.15800653862064076,
+        "metrics": {
+          "all_points": {
+            "observations": 27563,
+            "top1_accuracy": 0.8526648042665893,
+            "macro_precision": 0.7379880337374589,
+            "macro_recall": 0.6956230589224767,
+            "macro_f1": 0.7076029824013633,
+            "candidate_miss_rate": 0.005333236585277365,
+            "categorical_log_loss_with_miss_state": 0.6974163970495856
+          },
+          "reliable_points": {
+            "observations": 18677,
+            "top1_accuracy": 0.9156181399582374,
+            "macro_precision": 0.8379592681268659,
+            "macro_recall": 0.8060761407079846,
+            "macro_f1": 0.81785824675772,
+            "candidate_miss_rate": 0.0005889596830326069,
+            "categorical_log_loss_with_miss_state": 0.24559259802332314
+          },
+          "reliable_coverage": 0.6776112904981315,
+          "candidate_binary_log_loss": 0.1220433122501874,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.945342447165779,
+            "macro_precision": 0.8845856198114533,
+            "macro_recall": 0.8657556344646052,
+            "macro_f1": 0.8733721934931933,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.1913331062315795
+          },
+          "reliable_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.945342447165779,
+            "macro_precision": 0.8845856198114533,
+            "macro_recall": 0.8657556344646052,
+            "macro_f1": 0.8733721934931933,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.1913331062315795
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.05095371640877144,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "student_test": {
+        "split": "student_test",
+        "fit_seconds": 622.1549497689994,
+        "inference_seconds": 2.4316977210000914,
+        "inference_ms_per_observation": 0.12691532990605905,
+        "metrics": {
+          "all_points": {
+            "observations": 19160,
+            "top1_accuracy": 0.8096555323590814,
+            "macro_precision": 0.6563513819382404,
+            "macro_recall": 0.5977065245989807,
+            "macro_f1": 0.6139620437933371,
+            "candidate_miss_rate": 0.003496868475991649,
+            "categorical_log_loss_with_miss_state": 0.777955676577849
+          },
+          "reliable_points": {
+            "observations": 13307,
+            "top1_accuracy": 0.8902833095363343,
+            "macro_precision": 0.7890645123521836,
+            "macro_recall": 0.7453238027787249,
+            "macro_f1": 0.7609387765906743,
+            "candidate_miss_rate": 0.0005260389268805891,
+            "categorical_log_loss_with_miss_state": 0.3045555907600332
+          },
+          "reliable_coverage": 0.6945198329853862,
+          "candidate_binary_log_loss": 0.14154303419762523,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.9435503946347249,
+            "macro_precision": 0.8853326541585306,
+            "macro_recall": 0.8656129077674346,
+            "macro_f1": 0.8735066016441523,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.18426108155573515
+          },
+          "reliable_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.9435503946347249,
+            "macro_precision": 0.8853326541585306,
+            "macro_recall": 0.8656129077674346,
+            "macro_f1": 0.8735066016441523,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.18426108155573515
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.04944720400025448,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      }
+    }
+  },
+  "extra_trees": {
+    "rec": {
+      "fold_0": {
+        "split": "fold_0",
+        "fit_seconds": 92.61737629999698,
+        "inference_seconds": 3.2057036999904085,
+        "inference_ms_per_observation": 0.11169699303102469,
+        "metrics": {
+          "all_points": {
+            "observations": 28700,
+            "top1_accuracy": 0.7788850174216028,
+            "macro_precision": 0.658138909322737,
+            "macro_recall": 0.6037244441560988,
+            "macro_f1": 0.6203200096626458,
+            "candidate_miss_rate": 0.00975609756097561,
+            "categorical_log_loss_with_miss_state": 0.913729911570001
+          },
+          "reliable_points": {
+            "observations": 20087,
+            "top1_accuracy": 0.8603574451137551,
+            "macro_precision": 0.7607110300820419,
+            "macro_recall": 0.7175953054785248,
+            "macro_f1": 0.7333615095133265,
+            "candidate_miss_rate": 0.0010952357245979987,
+            "categorical_log_loss_with_miss_state": 0.3958923331574149
+          },
+          "reliable_coverage": 0.6998954703832753,
+          "candidate_binary_log_loss": 0.14182493638077198,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.8820343812490881,
+            "macro_precision": 0.8201830550010034,
+            "macro_recall": 0.783866865564819,
+            "macro_f1": 0.7975247991003468,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.28622357859139924
+          },
+          "reliable_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.8820343812490881,
+            "macro_precision": 0.8201830550010034,
+            "macro_recall": 0.783866865564819,
+            "macro_f1": 0.7975247991003468,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.28622357859139924
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.0754136061437832,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_1": {
+        "split": "fold_1",
+        "fit_seconds": 81.04705310000281,
+        "inference_seconds": 4.729923599996255,
+        "inference_ms_per_observation": 0.11623147392726828,
+        "metrics": {
+          "all_points": {
+            "observations": 40694,
+            "top1_accuracy": 0.7526662407234481,
+            "macro_precision": 0.7253873566502563,
+            "macro_recall": 0.6804397797247475,
+            "macro_f1": 0.6944876155607073,
+            "candidate_miss_rate": 0.10217722514375584,
+            "categorical_log_loss_with_miss_state": 3.219473606707033
+          },
+          "reliable_points": {
+            "observations": 29107,
+            "top1_accuracy": 0.8719895557769609,
+            "macro_precision": 0.8333720787734417,
+            "macro_recall": 0.801188354041768,
+            "macro_f1": 0.812872932440519,
+            "candidate_miss_rate": 0.017177998419624144,
+            "categorical_log_loss_with_miss_state": 0.7656259029381957
+          },
+          "reliable_coverage": 0.7152651496535116,
+          "candidate_binary_log_loss": 0.11282437815280327,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8707015512850197,
+            "macro_precision": 0.8034140969162996,
+            "macro_recall": 0.7640456046558728,
+            "macro_f1": 0.7788406699735377,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.3088202083160373
+          },
+          "reliable_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8707015512850197,
+            "macro_precision": 0.8034140969162996,
+            "macro_recall": 0.7640456046558728,
+            "macro_f1": 0.7788406699735377,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.3088202083160373
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.08078995410115566,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_2": {
+        "split": "fold_2",
+        "fit_seconds": 90.44785100000445,
+        "inference_seconds": 4.3150234000058845,
+        "inference_ms_per_observation": 0.08780009359878493,
+        "metrics": {
+          "all_points": {
+            "observations": 49146,
+            "top1_accuracy": 0.4677084605054328,
+            "macro_precision": 0.640733880549249,
+            "macro_recall": 0.5792581331246478,
+            "macro_f1": 0.5991300639347156,
+            "candidate_miss_rate": 0.28549627640092784,
+            "categorical_log_loss_with_miss_state": 9.839265104245632
+          },
+          "reliable_points": {
+            "observations": 22542,
+            "top1_accuracy": 0.8094667731345933,
+            "macro_precision": 0.7519397029483484,
+            "macro_recall": 0.6992646087556778,
+            "macro_f1": 0.7176185033750986,
+            "candidate_miss_rate": 0.0018188270783426493,
+            "categorical_log_loss_with_miss_state": 0.4619721671064388
+          },
+          "reliable_coverage": 0.4586741545598828,
+          "candidate_binary_log_loss": 0.34938244484836967,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8828551643130758,
+            "macro_precision": 0.8175042686246834,
+            "macro_recall": 0.7814249909269713,
+            "macro_f1": 0.7949705656301567,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2776422634251591
+          },
+          "reliable_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8828551643130758,
+            "macro_precision": 0.8175042686246834,
+            "macro_recall": 0.7814249909269713,
+            "macro_f1": 0.7949705656301567,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2776422634251591
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.07264059906943901,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_3": {
+        "split": "fold_3",
+        "fit_seconds": 69.12253269999928,
+        "inference_seconds": 6.324728899999172,
+        "inference_ms_per_observation": 0.10149771961355669,
+        "metrics": {
+          "all_points": {
+            "observations": 62314,
+            "top1_accuracy": 0.7515004653849857,
+            "macro_precision": 0.6994104560689891,
+            "macro_recall": 0.6407720385485186,
+            "macro_f1": 0.6606204532717144,
+            "candidate_miss_rate": 0.005632763102994512,
+            "categorical_log_loss_with_miss_state": 0.7483121894786398
+          },
+          "reliable_points": {
+            "observations": 46757,
+            "top1_accuracy": 0.7780225420792609,
+            "macro_precision": 0.7580857602809893,
+            "macro_recall": 0.7027761088366359,
+            "macro_f1": 0.7235237881592651,
+            "candidate_miss_rate": 0.00029942040763949784,
+            "categorical_log_loss_with_miss_state": 0.489903108978487
+          },
+          "reliable_coverage": 0.7503450267997561,
+          "candidate_binary_log_loss": 0.13945597905195595,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8993310255011743,
+            "macro_precision": 0.8281447245063088,
+            "macro_recall": 0.7946944229558037,
+            "macro_f1": 0.8068895529540321,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.23902047217878097
+          },
+          "reliable_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8993310255011743,
+            "macro_precision": 0.8281447245063088,
+            "macro_recall": 0.7946944229558037,
+            "macro_f1": 0.8068895529540321,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.23902047217878097
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.0644345991939154,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "fold_4": {
+        "split": "fold_4",
+        "fit_seconds": 96.45398429999477,
+        "inference_seconds": 2.785630599988508,
+        "inference_ms_per_observation": 0.10106412944848196,
+        "metrics": {
+          "all_points": {
+            "observations": 27563,
+            "top1_accuracy": 0.8559663316765229,
+            "macro_precision": 0.7476711793099403,
+            "macro_recall": 0.7055398678678954,
+            "macro_f1": 0.7180496457787354,
+            "candidate_miss_rate": 0.005333236585277365,
+            "categorical_log_loss_with_miss_state": 0.5857300271649731
+          },
+          "reliable_points": {
+            "observations": 18677,
+            "top1_accuracy": 0.9148150131177384,
+            "macro_precision": 0.8343846549948507,
+            "macro_recall": 0.8020468324969781,
+            "macro_f1": 0.813942738055923,
+            "candidate_miss_rate": 0.0005889596830326069,
+            "categorical_log_loss_with_miss_state": 0.2670868870171636
+          },
+          "reliable_coverage": 0.6776112904981315,
+          "candidate_binary_log_loss": 0.1048521413858056,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8715441500729333,
+            "macro_precision": 0.8050304573192154,
+            "macro_recall": 0.7663439517937995,
+            "macro_f1": 0.7808840275384025,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.30641849467848326
+          },
+          "reliable_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8715441500729333,
+            "macro_precision": 0.8050304573192154,
+            "macro_recall": 0.7663439517937995,
+            "macro_f1": 0.7808840275384025,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.30641849467848326
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.07999606043726079,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      },
+      "student_test": {
+        "split": "student_test",
+        "fit_seconds": 112.76037570000335,
+        "inference_seconds": 2.009384599994519,
+        "inference_ms_per_observation": 0.10487393528155109,
+        "metrics": {
+          "all_points": {
+            "observations": 19160,
+            "top1_accuracy": 0.8110647181628392,
+            "macro_precision": 0.6743191460672056,
+            "macro_recall": 0.6157974526782923,
+            "macro_f1": 0.6324548091156994,
+            "candidate_miss_rate": 0.003496868475991649,
+            "categorical_log_loss_with_miss_state": 0.6258323521229203
+          },
+          "reliable_points": {
+            "observations": 13307,
+            "top1_accuracy": 0.8861501465394154,
+            "macro_precision": 0.7858910786183514,
+            "macro_recall": 0.7415024587633626,
+            "macro_f1": 0.7571989500945207,
+            "candidate_miss_rate": 0.0005260389268805891,
+            "categorical_log_loss_with_miss_state": 0.30684224431691876
+          },
+          "reliable_coverage": 0.6945198329853862,
+          "candidate_binary_log_loss": 0.1199362937347207,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8763453456531607,
+            "macro_precision": 0.8115544876003395,
+            "macro_recall": 0.7738547946788725,
+            "macro_f1": 0.7879085657579817,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2930997824155624
+          },
+          "reliable_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8763453456531607,
+            "macro_precision": 0.8115544876003395,
+            "macro_recall": 0.7738547946788725,
+            "macro_f1": 0.7879085657579817,
+            "candidate_miss_rate": 0,
+            "categorical_log_loss_with_miss_state": 0.2930997824155624
+          },
+          "reliable_coverage": 1,
+          "candidate_binary_log_loss": 0.07708823574696586,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [],
+        "smoke": false
+      }
+    }
+  },
+  "mlp": {
+    "rec": {
+      "fold_0": {
+        "split": "fold_0",
+        "fit_seconds": 76.89530572299554,
+        "inference_seconds": 0.769773970998358,
+        "inference_ms_per_observation": 0.02682139271771282,
+        "metrics": {
+          "all_points": {
+            "observations": 28700,
+            "top1_accuracy": 0.7670034843205575,
+            "macro_precision": 0.6296589033976571,
+            "macro_recall": 0.5674588491734761,
+            "macro_f1": 0.5861745694458836,
+            "candidate_miss_rate": 0.00975609756097561,
+            "categorical_log_loss_with_miss_state": 0.9882306076306351
+          },
+          "reliable_points": {
+            "observations": 20087,
+            "top1_accuracy": 0.8635435854034949,
+            "macro_precision": 0.7762706605337828,
+            "macro_recall": 0.733715726572523,
+            "macro_f1": 0.7492318013427043,
+            "candidate_miss_rate": 0.0010952357245979987,
+            "categorical_log_loss_with_miss_state": 0.37756524986561985
+          },
+          "reliable_coverage": 0.6998954703832753,
+          "candidate_binary_log_loss": 0.16963016718154372,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.8560381746869555,
+            "macro_precision": 0.8093678135105383,
+            "macro_recall": 0.7682476258495945,
+            "macro_f1": 0.7835404108328989,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.32836193573590333
+          },
+          "reliable_points": {
+            "observations": 116517,
+            "top1_accuracy": 0.8560381746869555,
+            "macro_precision": 0.8093678135105383,
+            "macro_recall": 0.7682476258495945,
+            "macro_f1": 0.7835404108328989,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.32836193573590333
+          },
+          "reliable_coverage": 1.0,
+          "candidate_binary_log_loss": 0.08895525721912112,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (25) reached and the optimization hasn't converged yet."
+        ],
+        "smoke": false
+      },
+      "fold_1": {
+        "split": "fold_1",
+        "fit_seconds": 65.80958074000227,
+        "inference_seconds": 0.902053767000325,
+        "inference_ms_per_observation": 0.022166751044387995,
+        "metrics": {
+          "all_points": {
+            "observations": 40694,
+            "top1_accuracy": 0.752592519781786,
+            "macro_precision": 0.723411795605744,
+            "macro_recall": 0.6760621779732813,
+            "macro_f1": 0.6907680102383281,
+            "candidate_miss_rate": 0.10217722514375584,
+            "categorical_log_loss_with_miss_state": 3.122959978880735
+          },
+          "reliable_points": {
+            "observations": 29107,
+            "top1_accuracy": 0.8749785275019755,
+            "macro_precision": 0.8432212785163302,
+            "macro_recall": 0.8121681482851862,
+            "macro_f1": 0.8234242548277984,
+            "candidate_miss_rate": 0.017177998419624144,
+            "categorical_log_loss_with_miss_state": 0.7258053532006917
+          },
+          "reliable_coverage": 0.7152651496535116,
+          "candidate_binary_log_loss": 0.11746231769126345,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8471775874044918,
+            "macro_precision": 0.7940504894898714,
+            "macro_recall": 0.7496267708381574,
+            "macro_f1": 0.7660513568531306,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.348385169442044
+          },
+          "reliable_points": {
+            "observations": 107975,
+            "top1_accuracy": 0.8471775874044918,
+            "macro_precision": 0.7940504894898714,
+            "macro_recall": 0.7496267708381574,
+            "macro_f1": 0.7660513568531306,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.348385169442044
+          },
+          "reliable_coverage": 1.0,
+          "candidate_binary_log_loss": 0.09321881467449163,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (25) reached and the optimization hasn't converged yet."
+        ],
+        "smoke": false
+      },
+      "fold_2": {
+        "split": "fold_2",
+        "fit_seconds": 71.48338389299897,
+        "inference_seconds": 1.0685100440023234,
+        "inference_ms_per_observation": 0.02174154649416684,
+        "metrics": {
+          "all_points": {
+            "observations": 49146,
+            "top1_accuracy": 0.4679119358645668,
+            "macro_precision": 0.6330853920669249,
+            "macro_recall": 0.5681261982076461,
+            "macro_f1": 0.5889457393041523,
+            "candidate_miss_rate": 0.28549627640092784,
+            "categorical_log_loss_with_miss_state": 9.693735201538914
+          },
+          "reliable_points": {
+            "observations": 22542,
+            "top1_accuracy": 0.8205128205128205,
+            "macro_precision": 0.7709889115184431,
+            "macro_recall": 0.7200217905403423,
+            "macro_f1": 0.7379205318669572,
+            "candidate_miss_rate": 0.0018188270783426493,
+            "categorical_log_loss_with_miss_state": 0.43158307094146997
+          },
+          "reliable_coverage": 0.4586741545598828,
+          "candidate_binary_log_loss": 0.38099070141994784,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8612477099604667,
+            "macro_precision": 0.8119957955984797,
+            "macro_recall": 0.77238867688928,
+            "macro_f1": 0.7871825277314333,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.32604791488012574
+          },
+          "reliable_points": {
+            "observations": 114081,
+            "top1_accuracy": 0.8612477099604667,
+            "macro_precision": 0.8119957955984797,
+            "macro_recall": 0.77238867688928,
+            "macro_f1": 0.7871825277314333,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.32604791488012574
+          },
+          "reliable_coverage": 1.0,
+          "candidate_binary_log_loss": 0.0865964605815397,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (25) reached and the optimization hasn't converged yet."
+        ],
+        "smoke": false
+      },
+      "fold_3": {
+        "split": "fold_3",
+        "fit_seconds": 47.99817124000401,
+        "inference_seconds": 1.3036728680017404,
+        "inference_ms_per_observation": 0.020921026863975036,
+        "metrics": {
+          "all_points": {
+            "observations": 62314,
+            "top1_accuracy": 0.7464293738164779,
+            "macro_precision": 0.6915462671840399,
+            "macro_recall": 0.6280422991033031,
+            "macro_f1": 0.6492949172412185,
+            "candidate_miss_rate": 0.005632763102994512,
+            "categorical_log_loss_with_miss_state": 0.7850370003311741
+          },
+          "reliable_points": {
+            "observations": 46757,
+            "top1_accuracy": 0.7791346750219218,
+            "macro_precision": 0.7694814814814814,
+            "macro_recall": 0.7144828893287097,
+            "macro_f1": 0.7350903040039158,
+            "candidate_miss_rate": 0.00029942040763949784,
+            "categorical_log_loss_with_miss_state": 0.5087882076704572
+          },
+          "reliable_coverage": 0.7503450267997561,
+          "candidate_binary_log_loss": 0.15579496087959077,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8793397076993288,
+            "macro_precision": 0.8161366551363494,
+            "macro_recall": 0.778073784599631,
+            "macro_f1": 0.7917415264627843,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.2913822834401243
+          },
+          "reliable_points": {
+            "observations": 89839,
+            "top1_accuracy": 0.8793397076993288,
+            "macro_precision": 0.8161366551363494,
+            "macro_recall": 0.778073784599631,
+            "macro_f1": 0.7917415264627843,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.2913822834401243
+          },
+          "reliable_coverage": 1.0,
+          "candidate_binary_log_loss": 0.07989088921425086,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (25) reached and the optimization hasn't converged yet."
+        ],
+        "smoke": false
+      },
+      "fold_4": {
+        "split": "fold_4",
+        "fit_seconds": 53.991171613000915,
+        "inference_seconds": 0.25852600100188283,
+        "inference_ms_per_observation": 0.009379458005365266,
+        "metrics": {
+          "all_points": {
+            "observations": 27563,
+            "top1_accuracy": 0.8474041287232885,
+            "macro_precision": 0.7345832643618625,
+            "macro_recall": 0.6871946617066632,
+            "macro_f1": 0.7008508412120804,
+            "candidate_miss_rate": 0.005333236585277365,
+            "categorical_log_loss_with_miss_state": 0.6261688193241258
+          },
+          "reliable_points": {
+            "observations": 18677,
+            "top1_accuracy": 0.9161535578519034,
+            "macro_precision": 0.8441304736105737,
+            "macro_recall": 0.8129676487497106,
+            "macro_f1": 0.8244451744931539,
+            "candidate_miss_rate": 0.0005889596830326069,
+            "categorical_log_loss_with_miss_state": 0.24397279692412885
+          },
+          "reliable_coverage": 0.6776112904981315,
+          "candidate_binary_log_loss": 0.12715960580383698,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8481122154754231,
+            "macro_precision": 0.7953725881200735,
+            "macro_recall": 0.7517585643518906,
+            "macro_f1": 0.7679640508637419,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.3466884506817862
+          },
+          "reliable_points": {
+            "observations": 117916,
+            "top1_accuracy": 0.8481122154754231,
+            "macro_precision": 0.7953725881200735,
+            "macro_recall": 0.7517585643518906,
+            "macro_f1": 0.7679640508637419,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.3466884506817862
+          },
+          "reliable_coverage": 1.0,
+          "candidate_binary_log_loss": 0.09248810947505447,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (25) reached and the optimization hasn't converged yet."
+        ],
+        "smoke": false
+      },
+      "student_test": {
+        "split": "student_test",
+        "fit_seconds": 93.43946075499844,
+        "inference_seconds": 0.49861026000144193,
+        "inference_ms_per_observation": 0.026023500000075257,
+        "metrics": {
+          "all_points": {
+            "observations": 19160,
+            "top1_accuracy": 0.7944676409185804,
+            "macro_precision": 0.6479714774305189,
+            "macro_recall": 0.5849579176959242,
+            "macro_f1": 0.6025349004739035,
+            "candidate_miss_rate": 0.003496868475991649,
+            "categorical_log_loss_with_miss_state": 0.6801431731317107
+          },
+          "reliable_points": {
+            "observations": 13307,
+            "top1_accuracy": 0.8872022243931765,
+            "macro_precision": 0.8018168399260427,
+            "macro_recall": 0.7586651402659177,
+            "macro_f1": 0.7741818459135328,
+            "candidate_miss_rate": 0.0005260389268805891,
+            "categorical_log_loss_with_miss_state": 0.2853721795726953
+          },
+          "reliable_coverage": 0.6945198329853862,
+          "candidate_binary_log_loss": 0.1406201412129309,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "fit_subset_metrics": {
+          "all_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8565111068808481,
+            "macro_precision": 0.8056353877011033,
+            "macro_recall": 0.7640931033664029,
+            "macro_f1": 0.7794029558370674,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.3308038340664147
+          },
+          "reliable_points": {
+            "observations": 136582,
+            "top1_accuracy": 0.8565111068808481,
+            "macro_precision": 0.8056353877011033,
+            "macro_recall": 0.7640931033664029,
+            "macro_f1": 0.7794029558370674,
+            "candidate_miss_rate": 0.0,
+            "categorical_log_loss_with_miss_state": 0.3308038340664147
+          },
+          "reliable_coverage": 1.0,
+          "candidate_binary_log_loss": 0.08861771474650064,
+          "route_continuity": null,
+          "route_continuity_reason": "Needs raw road network and an agreed path/connectivity definition; do not invent a value."
+        },
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (25) reached and the optimization hasn't converged yet."
+        ],
+        "smoke": false
+      }
+    }
+  }
+}

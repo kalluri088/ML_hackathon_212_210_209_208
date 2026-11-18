@@ -1,0 +1,11 @@
+{
+  "selected_trial": 5,
+  "selected_parameters": {
+    "n_estimators": 150,
+    "max_depth": 16,
+    "min_samples_leaf": 8,
+    "max_features": 7
+  },
+  "cv_macro_f1": 0.6591452959108943,
+  "search_wall_seconds": 804.8552387710006
+}

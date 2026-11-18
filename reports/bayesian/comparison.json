@@ -1,0 +1,72 @@
+{
+  "untuned": {
+    "trial": 1,
+    "parameters": {
+      "n_estimators": 150,
+      "max_depth": 24,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt"
+    },
+    "cv_macro_f1_mean": 0.6585215576417037,
+    "cv_macro_f1_sd": 0.04433568259335247,
+    "all_points": {
+      "observations": 19160,
+      "top1_accuracy": 0.8110647181628392,
+      "macro_precision": 0.6743191460672056,
+      "macro_recall": 0.6157974526782923,
+      "macro_f1": 0.6324548091156994,
+      "candidate_miss_rate": 0.003496868475991649,
+      "categorical_log_loss_with_miss_state": 0.6258323521229203
+    },
+    "reliable_points": {
+      "observations": 13307,
+      "top1_accuracy": 0.8861501465394154,
+      "macro_precision": 0.7858910786183514,
+      "macro_recall": 0.7415024587633626,
+      "macro_f1": 0.7571989500945207,
+      "candidate_miss_rate": 0.0005260389268805891,
+      "categorical_log_loss_with_miss_state": 0.30684224431691876
+    },
+    "reliable_coverage": 0.6945198329853862,
+    "fit_seconds": 33.370202856000105,
+    "predict_seconds": 0.4426255479993415,
+    "inference_ms_per_observation": 0.02310154217115561,
+    "warnings": [],
+    "student_candidate_binary_log_loss": 0.1199362937347207
+  },
+  "tuned": {
+    "trial": 5,
+    "parameters": {
+      "n_estimators": 150,
+      "max_depth": 16,
+      "min_samples_leaf": 8,
+      "max_features": 7
+    },
+    "cv_macro_f1_mean": 0.6591452959108943,
+    "cv_macro_f1_sd": 0.043962147122044035,
+    "all_points": {
+      "observations": 19160,
+      "top1_accuracy": 0.811795407098121,
+      "macro_precision": 0.6771908416177109,
+      "macro_recall": 0.6191479814618747,
+      "macro_f1": 0.6357865879035448,
+      "candidate_miss_rate": 0.003496868475991649,
+      "categorical_log_loss_with_miss_state": 0.622394283008699
+    },
+    "reliable_points": {
+      "observations": 13307,
+      "top1_accuracy": 0.8868264823025476,
+      "macro_precision": 0.786866532998101,
+      "macro_recall": 0.7427360114782171,
+      "macro_f1": 0.7583572687572395,
+      "candidate_miss_rate": 0.0005260389268805891,
+      "categorical_log_loss_with_miss_state": 0.30264344868689125
+    },
+    "reliable_coverage": 0.6945198329853862,
+    "fit_seconds": 48.86836737100384,
+    "predict_seconds": 0.35760358499828726,
+    "inference_ms_per_observation": 0.018664070198240464,
+    "warnings": [],
+    "student_candidate_binary_log_loss": 0.11929696779816534
+  }
+}
