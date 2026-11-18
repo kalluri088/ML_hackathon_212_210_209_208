@@ -12,10 +12,7 @@ Bayesian search, HMM or application results have been completed yet.
 | Hrisheek | Extra Trees | Evaluator UI on Laptop 2 |
 | Joshwin | MLP | Folium maps, experiment plots and report assembly |
 
-Start with [training instructions](docs/TRAINING_GUIDE.md),
-[team responsibilities](docs/TEAM_TASKS.md), and your copy/paste prompt:
-[Yaswanth](docs/prompts/yaswanth.md), [Madhu](docs/prompts/madhu.md),
-[Hrisheek](docs/prompts/hrisheek.md), [Joshwin](docs/prompts/joshwin.md).
+
 
 ## Quick start
 
